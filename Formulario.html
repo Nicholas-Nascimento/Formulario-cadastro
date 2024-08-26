@@ -3,35 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Formulário</title>
 </head>
 <body>
-    
-    <div>
-        <h1>Formulário de Cadastro</h1>
-        <p>Complete suas informações</p>
-        <br>
-    </div>
-
+    <h1>Formulário de cadastro</h1>
     <form>
-        <fieldset>
-            <div>
-                <label>Nome</label>
-                <input type="text", name="Nome", id="Nome" required>
-            </div>
-
-            <div>
-                <label>E-mail</label>
-                <input type="text", name="E-mail", id="E-mail" required>
-            </div>
-
-            <div>
-                <label>Senha</label>
-                <input type="text", name="Senha", id="Senha" required>
-            </div>
-        </fieldset>
-        <button type="submit">Concluído</button>
+        <label for="name">Nome</label>
+        <input id="name" type="text"><br>
+        <label for="email">E-mail</label>
+        <input id="email" type="email"><br>
+        <label for="password">Senha</label>
+        <input id="password" type="password"><br>
+        <button type="submit">Cadastrar</button>
     </form>
-
 </body>
 </html>
